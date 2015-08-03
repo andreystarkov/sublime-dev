@@ -1,0 +1,33 @@
+{
+	"auto_complete": false,
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti_orig.tmTheme",
+	"fold_buttons": false,
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"auto_update_ignore":
+	[
+		"Seti_UI",
+		"Seti_UX"
+	],
+	"indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 2,
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"Seti_sb_big_padding": true,
+	"Seti_sb_tree_tiny": true,
+	"Seti_sb_wild": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"word_wrap": "false"
+}
