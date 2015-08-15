@@ -1,0 +1,976 @@
+{
+	"folder_history":
+	[
+		"/C/OpenServer/domains/js",
+		"/C/OpenServer/domains/gulpjs",
+		"/C/OpenServer/domains/localhost",
+		"/C/dev/portfolio",
+		"/C/dev/wp-lessons"
+	],
+	"last_version": 3075,
+	"last_window_id": 10,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 487.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"p",
+						"position: "
+					],
+					[
+						"tra",
+						"transition	Bourbon"
+					],
+					[
+						"t",
+						"text-align: "
+					],
+					[
+						"i",
+						"inline-block"
+					],
+					[
+						"tex",
+						"text-transform: "
+					],
+					[
+						"tr",
+						"transition: "
+					],
+					[
+						"add",
+						"addClass"
+					],
+					[
+						"top",
+						"top_text"
+					],
+					[
+						"mid",
+						"middle"
+					],
+					[
+						"c",
+						"center"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"b",
+						"block"
+					],
+					[
+						"to",
+						"toggleClass"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"toggle",
+						"toggle_mnu"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"re",
+						"relative"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 330.0,
+				"last_filter": "settuse",
+				"selected_items":
+				[
+					[
+						"settuse",
+						"Preferences: Settings - User"
+					],
+					[
+						"gist",
+						"Gist: Create Public Gist"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"gis",
+						"Gist: Open Gist"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"Themr: List themes"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"LiveReload: Enable/disable plugins",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"intall",
+						"Package Control: Install Package"
+					],
+					[
+						"setjs",
+						"Set Syntax: JSON"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"setsht",
+						"Set Syntax: HTML"
+					],
+					[
+						"seth",
+						"Set Syntax: HTML"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"paka",
+						"Package Control: Remove Package"
+					],
+					[
+						"inspa",
+						"Package Control: Install Package"
+					],
+					[
+						"linter",
+						"SublimeLinter: Enable Linting"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"instal ",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"setssa",
+						"Set Syntax: Sass"
+					],
+					[
+						"setsynsa",
+						"Set Syntax: Sass"
+					],
+					[
+						"setsysa",
+						"Set Syntax: Sass"
+					],
+					[
+						"pacv",
+						"Package Control: Advanced Install Package"
+					]
+				],
+				"width": 536.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/dev/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
+				"/C/OpenServer/domains/js/index.html",
+				"/C/OpenServer/domains/gulpjs/gulpfile-1.js",
+				"/C/OpenServer/domains/gulpjs/app/css/style.css",
+				"/C/OpenServer/domains/gulpjs/app/sass/style.sass",
+				"/C/OpenServer/domains/gulpjs/app/index.html",
+				"/c/users/stas/appdata/local/temp/gistfile1.txt",
+				"/c/users/stas/appdata/local/temp/list_frontend_snippets.txt",
+				"/C/dev/sublime-3dev/Data/Packages/User/ApplySyntax.sublime-settings",
+				"/C/dev/sublime-3dev/Data/Packages/ApplySyntax/ApplySyntax.sublime-settings",
+				"/C/OpenServer/domains/gulpjs/gulpfile.js",
+				"/C/OpenServer/domains/gulpjs/package.json",
+				"/C/dev/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/dev/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/gulpjs/app/style.css",
+				"/C/OpenServer/domains/gulpjs/app/style.sass",
+				"/C/OpenServer/domains/gulpjs/app/sublime-settings.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/LiveReload.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/gulpjs/gulp.sublime-project",
+				"/C/OpenServer/domains/gulpjs/index.html",
+				"/C/OpenServer/domains/gulpjs/css/common.css",
+				"/C/OpenServer/domains/gulpjs/css/font.css",
+				"/C/OpenServer/domains/gulpjs/app/css/bundle.min.css",
+				"/C/OpenServer/domains/gulpjs/app/bundle.css",
+				"/C/OpenServer/domains/landing/css/sass/skins/tomato.sass",
+				"/C/OpenServer/domains/landing/css/sass/fonts.sass",
+				"/C/OpenServer/domains/landing/css/sass/main.sass",
+				"/C/OpenServer/domains/landing/js/common.js",
+				"/C/OpenServer/domains/landing/index.html",
+				"/C/OpenServer/domains/landing/_src/_clean_html/index.html",
+				"/C/OpenServer/domains/landing/img/logo.svg",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/landing/_src/_clean_html/css/sass/main.sass",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Tag Package.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Tag/Tag Package.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Diffy/Diffy.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Diffy.sublime-settings",
+				"/C/OpenServer/domains/landing/css/main.css",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/LiveReload/LiveReload.sublime-settings",
+				"/C/OpenServer/domains/landing/libs/bootstrap/bootstrap-grid.min.css",
+				"/C/OpenServer/domains/landing/livereload.js",
+				"/C/OpenServer/domains/landing/wordpress-landing-page-lesson-master/_clean_html/index.html",
+				"/C/OpenServer/domains/gulpjs/css/main.css",
+				"/C/OpenServer/domains/gulpjs/css/normalize.css",
+				"/C/OpenServer/domains/gulpjs/css/normalize.min.css",
+				"/C/OpenServer/domains/gulpjs/js/main.js",
+				"/C/OpenServer/domains/gulpjs/js/vendor/jquery-1.11.2.min.js",
+				"/C/OpenServer/domains/gulpjs/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+				"/C/OpenServer/domains/gulpjs/.htaccess",
+				"/C/OpenServer/domains/gulpjs/404.html",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/package.json",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/gulpfile.js",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/mainall.css",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/bundle.css",
+				"/C/Users/stas/Downloads/wp_term_taxonomy.sql",
+				"/C/OpenServer/domains/tsvetkovpro/gulpfile.js",
+				"/C/Users/stas/Downloads/wp_posts.sql",
+				"/C/Users/stas/Downloads/wp_terms.sql",
+				"/C/Users/stas/Downloads/wp_term_relationships.sql",
+				"/C/Users/stas/Desktop/main.css",
+				"/C/Users/stas/Desktop/index.html",
+				"/C/OpenServer/domains/tsvetkovpro/package.json",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/footer.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/functions.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/theme-options.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/header.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/css/main.css",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/index.php",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Gist.sublime-settings",
+				"/C/Users/stas/Desktop/Makety_Korporativnykh_Vizitok_V_Vektore.svg",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/function.php",
+				"/C/dev/portfolio/css/sass/fonts.sass",
+				"/C/dev/portfolio/css/sass/skins/tomato.sass",
+				"/C/dev/portfolio/js/common.js",
+				"/C/dev/portfolio/index.html",
+				"/C/dev/portfolio/1.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/ZenTabs.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/ZenTabs.sublime-settings",
+				"/C/dev/portfolio/css/media.css",
+				"/C/dev/portfolio/css/sass/main.sass",
+				"/C/dev/wp-lessons/_clean_html/index.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default.sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/Default.sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/TODO.todo",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/SublimeLinter.sublime-settings",
+				"/C/dev/portfolio/libs/bootstrap/bootstrap-grid.min.css",
+				"/C/dev/wp-lessons/_clean_html/css/sass/main.sass",
+				"/C/dev/wp-lessons/__clean_html_original/index.html",
+				"/C/dev/portfolio/css/fonts.css",
+				"/C/dev/portfolio/img/logo.svg",
+				"/C/dev/portfolio/css/skins/tomato.css",
+				"/C/dev/wp-lessons/_clean_html/js/common.js",
+				"/C/dev/sublime/test/index.html",
+				"/C/dev/sublime/test/style.css",
+				"/C/dev/wp-lessons/_clean_html/libs/bootstrap/bootstrap-grid.min.css"
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"dolor",
+					"upda",
+					"ctrl+shift+r",
+					">\n",
+					"');\n",
+					"sandwich",
+					"	.loader_inner\n",
+					"portfolio_",
+					"portf",
+					"sample_theme_option",
+					"theme",
+					"container",
+					"f5",
+					"top_descr",
+					"sec",
+					"s_de",
+					"top_wrapper",
+					"0",
+					">"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"comjs",
+						"js\\common.js"
+					],
+					[
+						"1.h",
+						"1.html"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 220.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1844.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"p",
+						"position: "
+					],
+					[
+						"tra",
+						"transition	Bourbon"
+					],
+					[
+						"t",
+						"text-align: "
+					],
+					[
+						"i",
+						"inline-block"
+					],
+					[
+						"tex",
+						"text-transform: "
+					],
+					[
+						"tr",
+						"transition: "
+					],
+					[
+						"add",
+						"addClass"
+					],
+					[
+						"top",
+						"top_text"
+					],
+					[
+						"mid",
+						"middle"
+					],
+					[
+						"c",
+						"center"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"b",
+						"block"
+					],
+					[
+						"to",
+						"toggleClass"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"toggle",
+						"toggle_mnu"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"re",
+						"relative"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 330.0,
+				"last_filter": "settuse",
+				"selected_items":
+				[
+					[
+						"settuse",
+						"Preferences: Settings - User"
+					],
+					[
+						"gist",
+						"Gist: Create Public Gist"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"gis",
+						"Gist: Open Gist"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"Themr: List themes"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"LiveReload: Enable/disable plugins",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"intall",
+						"Package Control: Install Package"
+					],
+					[
+						"setjs",
+						"Set Syntax: JSON"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"setsht",
+						"Set Syntax: HTML"
+					],
+					[
+						"seth",
+						"Set Syntax: HTML"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"paka",
+						"Package Control: Remove Package"
+					],
+					[
+						"inspa",
+						"Package Control: Install Package"
+					],
+					[
+						"linter",
+						"SublimeLinter: Enable Linting"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"instal ",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"setssa",
+						"Set Syntax: Sass"
+					],
+					[
+						"setsynsa",
+						"Set Syntax: Sass"
+					],
+					[
+						"setsysa",
+						"Set Syntax: Sass"
+					],
+					[
+						"pacv",
+						"Package Control: Advanced Install Package"
+					]
+				],
+				"width": 536.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/dev/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
+				"/C/dev/sublime-3dev/Data/Packages/Diffy/Diffy.sublime-settings",
+				"/C/dev/sublime-3dev/Data/Packages/User/Diffy.sublime-settings",
+				"/C/OpenServer/domains/js/index.html",
+				"/C/OpenServer/domains/gulpjs/gulpfile-1.js",
+				"/C/OpenServer/domains/gulpjs/app/css/style.css",
+				"/C/OpenServer/domains/gulpjs/app/sass/style.sass",
+				"/C/OpenServer/domains/gulpjs/app/index.html",
+				"/c/users/stas/appdata/local/temp/gistfile1.txt",
+				"/c/users/stas/appdata/local/temp/list_frontend_snippets.txt",
+				"/C/dev/sublime-3dev/Data/Packages/User/ApplySyntax.sublime-settings",
+				"/C/dev/sublime-3dev/Data/Packages/ApplySyntax/ApplySyntax.sublime-settings",
+				"/C/OpenServer/domains/gulpjs/gulpfile.js",
+				"/C/OpenServer/domains/gulpjs/package.json",
+				"/C/dev/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/dev/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/gulpjs/app/style.css",
+				"/C/OpenServer/domains/gulpjs/app/style.sass",
+				"/C/OpenServer/domains/gulpjs/app/sublime-settings.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/LiveReload.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/gulpjs/gulp.sublime-project",
+				"/C/OpenServer/domains/gulpjs/index.html",
+				"/C/OpenServer/domains/gulpjs/css/common.css",
+				"/C/OpenServer/domains/gulpjs/css/font.css",
+				"/C/OpenServer/domains/gulpjs/app/css/bundle.min.css",
+				"/C/OpenServer/domains/gulpjs/app/bundle.css",
+				"/C/OpenServer/domains/landing/css/sass/skins/tomato.sass",
+				"/C/OpenServer/domains/landing/css/sass/fonts.sass",
+				"/C/OpenServer/domains/landing/css/sass/main.sass",
+				"/C/OpenServer/domains/landing/js/common.js",
+				"/C/OpenServer/domains/landing/index.html",
+				"/C/OpenServer/domains/landing/_src/_clean_html/index.html",
+				"/C/OpenServer/domains/landing/img/logo.svg",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+				"/C/OpenServer/domains/landing/_src/_clean_html/css/sass/main.sass",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Tag Package.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Tag/Tag Package.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Diffy/Diffy.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Diffy.sublime-settings",
+				"/C/OpenServer/domains/landing/css/main.css",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/LiveReload/LiveReload.sublime-settings",
+				"/C/OpenServer/domains/landing/libs/bootstrap/bootstrap-grid.min.css",
+				"/C/OpenServer/domains/landing/livereload.js",
+				"/C/OpenServer/domains/landing/wordpress-landing-page-lesson-master/_clean_html/index.html",
+				"/C/OpenServer/domains/gulpjs/css/main.css",
+				"/C/OpenServer/domains/gulpjs/css/normalize.css",
+				"/C/OpenServer/domains/gulpjs/css/normalize.min.css",
+				"/C/OpenServer/domains/gulpjs/js/main.js",
+				"/C/OpenServer/domains/gulpjs/js/vendor/jquery-1.11.2.min.js",
+				"/C/OpenServer/domains/gulpjs/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+				"/C/OpenServer/domains/gulpjs/.htaccess",
+				"/C/OpenServer/domains/gulpjs/404.html",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/package.json",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/gulpfile.js",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/mainall.css",
+				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/bundle.css",
+				"/C/Users/stas/Downloads/wp_term_taxonomy.sql",
+				"/C/OpenServer/domains/tsvetkovpro/gulpfile.js",
+				"/C/Users/stas/Downloads/wp_posts.sql",
+				"/C/Users/stas/Downloads/wp_terms.sql",
+				"/C/Users/stas/Downloads/wp_term_relationships.sql",
+				"/C/Users/stas/Desktop/main.css",
+				"/C/Users/stas/Desktop/index.html",
+				"/C/OpenServer/domains/tsvetkovpro/package.json",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/footer.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/functions.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/theme-options.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/header.php",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/css/main.css",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/index.php",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Gist.sublime-settings",
+				"/C/Users/stas/Desktop/Makety_Korporativnykh_Vizitok_V_Vektore.svg",
+				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/function.php",
+				"/C/dev/portfolio/css/sass/fonts.sass",
+				"/C/dev/portfolio/css/sass/skins/tomato.sass",
+				"/C/dev/portfolio/js/common.js",
+				"/C/dev/portfolio/index.html",
+				"/C/dev/portfolio/1.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/ZenTabs.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/ZenTabs.sublime-settings",
+				"/C/dev/portfolio/css/media.css",
+				"/C/dev/portfolio/css/sass/main.sass",
+				"/C/dev/wp-lessons/_clean_html/index.html",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default.sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/Default.sublime-keymap",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/TODO.todo",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/C/dev/sublime/sublime-3dev/Data/Packages/User/SublimeLinter.sublime-settings",
+				"/C/dev/portfolio/libs/bootstrap/bootstrap-grid.min.css",
+				"/C/dev/wp-lessons/_clean_html/css/sass/main.sass",
+				"/C/dev/wp-lessons/__clean_html_original/index.html",
+				"/C/dev/portfolio/css/fonts.css",
+				"/C/dev/portfolio/img/logo.svg",
+				"/C/dev/portfolio/css/skins/tomato.css",
+				"/C/dev/wp-lessons/_clean_html/js/common.js",
+				"/C/dev/sublime/test/index.html",
+				"/C/dev/sublime/test/style.css",
+				"/C/dev/wp-lessons/_clean_html/libs/bootstrap/bootstrap-grid.min.css"
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"dolor",
+					"upda",
+					"ctrl+shift+r",
+					">\n",
+					"');\n",
+					"sandwich",
+					"	.loader_inner\n",
+					"portfolio_",
+					"portf",
+					"sample_theme_option",
+					"theme",
+					"container",
+					"f5",
+					"top_descr",
+					"sec",
+					"s_de",
+					"top_wrapper",
+					"0",
+					">"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.817545748116,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,1082,-4,531,1856",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"comjs",
+						"js\\common.js"
+					],
+					[
+						"1.h",
+						"1.html"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 220.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 7,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/C/OpenServer/domains/js/js.sublime-workspace",
+			"/C/OpenServer/domains/gulpjs/gulp.sublime-workspace"
+		]
+	}
+}

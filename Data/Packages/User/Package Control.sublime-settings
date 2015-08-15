@@ -1,0 +1,27 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApplySyntax",
+		"AutoFileName",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Color Highlighter",
+		"Diffy",
+		"Emmet",
+		"Future Funk - Color Scheme",
+		"Gist",
+		"Goto-CSS-Declaration",
+		"Package Control",
+		"Seti_UI",
+		"Seti_UX",
+		"SideBarEnhancements",
+		"Syntax Highlighting for Sass",
+		"Tag",
+		"Themr"
+	]
+}
