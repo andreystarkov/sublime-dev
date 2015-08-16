@@ -1,5 +1,9 @@
 ## Sublime 3 for web development
 
+<p align="center">
+<img src="somefiles/sublime.png" width="100%">
+<div align="center"><i>123</i></div>
+</p>  
 
 ### Install package
 - [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile) - Advanced file creation
