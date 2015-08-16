@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="somefiles/sublime.png" width="100%">
-<div align="center"><i>123</i></div>
+<div align="center"><i>Sublime workspace</i></div>
 </p>  
 
 ### Install package
