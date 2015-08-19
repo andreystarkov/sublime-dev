@@ -17,7 +17,9 @@
 
 //goto-css-declaration
 {"keys": ["alt+c"], "command": "goto_css_declaration", "args": {"goto": "next"}},
-{"keys": ["alt+x"],  "command": "goto_css_declaration", "args": {"goto": "prev"}}
+{"keys": ["alt+x"],  "command": "goto_css_declaration", "args": {"goto": "prev"}},
+
+{ "keys": ["ctrl+d"], "command": "duplicate_line" }
 
 ]
 
