@@ -26,8 +26,12 @@
 - [Syntax Highlighting for Sass](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) - Perfect syntax highlighting for both SCSS and Sass.
 
 ### Hotkeys
-* 1. [Горячие клавиши PDF](somefiles\hot-keys.pdf)
-* 2. [Горячие клавиши PNG](somefiles\hot-keys.png)
+* 1. [Горячие клавиши PDF](somefiles/hot-keys.pdf)
+* 2. [Горячие клавиши PNG](somefiles/hot-keys.png)
+
+#### My Hotkeys
+* 1. AdvancedNewFile: ctrl+alt+n - create new file
+* 2. Gist: ctrl+shift+alt+g - Insert gist list, ctrl+k,ctrl+i - gist
 
 
 
