@@ -19,7 +19,8 @@
 {"keys": ["alt+c"], "command": "goto_css_declaration", "args": {"goto": "next"}},
 {"keys": ["alt+x"],  "command": "goto_css_declaration", "args": {"goto": "prev"}},
 
-{ "keys": ["ctrl+d"], "command": "duplicate_line" }
+{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+{ "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} }
 
 ]
 
