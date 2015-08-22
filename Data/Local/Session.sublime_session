@@ -456,9 +456,13 @@
 			"command_palette":
 			{
 				"height": 400.0,
-				"last_filter": "setsyc",
+				"last_filter": "setti",
 				"selected_items":
 				[
+					[
+						"setti",
+						"Preferences: Settings - User"
+					],
 					[
 						"setsyc",
 						"Set Syntax: CSS"
@@ -572,7 +576,7 @@
 						"Package Control: Advanced Install Package"
 					]
 				],
-				"width": 520.0
+				"width": 471.0
 			},
 			"console":
 			{
