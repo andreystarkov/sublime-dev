@@ -40,8 +40,8 @@
 
 #### Hotkeys in this build
 * 1. AdvancedNewFile - **ctrl+alt+n**       - *create new file*
-* 2. Gist            - **ctrl+shift+alt+g** - *Insert gist list,* **ctrl+k,ctrl+i** *- gist*
-* 3. Diffy           - **ctrl+k; ctrl+d**   - *diff two files,* **ctrl+k; ctrl+c** *- clear marked*
+* 2. Gist            - **ctrl+shift+alt+g** - *Insert gist list*, 	**ctrl+k;ctrl+i**  - gist
+* 3. Diffy           - **ctrl+k; ctrl+d**   - *diff two files*,   	**ctrl+k; ctrl+c** - clear marked
 * 4. GotoCSS         - **alt+c, alt+x**     - *go to css rule*
 * 5. Copy cliboard   - **ctrl+k,v**         - *history of cliboard*
 
