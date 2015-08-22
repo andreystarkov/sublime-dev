@@ -3,11 +3,11 @@
 	[
 	],
 	"last_version": 3075,
-	"last_window_id": 11,
+	"last_window_id": 13,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 493.0,
+		"new_window_height": 484.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -102,10 +102,14 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 330.0,
-				"last_filter": "settuse",
+				"height": 400.0,
+				"last_filter": "setsyc",
 				"selected_items":
 				[
+					[
+						"setsyc",
+						"Set Syntax: CSS"
+					],
 					[
 						"settuse",
 						"Preferences: Settings - User"
@@ -215,7 +219,7 @@
 						"Package Control: Advanced Install Package"
 					]
 				],
-				"width": 536.0
+				"width": 520.0
 			},
 			"console":
 			{
@@ -236,117 +240,10 @@
 			},
 			"file_history":
 			[
-				"/E/desktop/tsvetkov.pro/cardio theme/index.html",
-				"/C/dev/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
-				"/C/dev/sublime-3dev/Data/Packages/Diffy/Diffy.sublime-settings",
-				"/C/dev/sublime-3dev/Data/Packages/User/Diffy.sublime-settings",
-				"/C/OpenServer/domains/js/index.html",
-				"/C/OpenServer/domains/gulpjs/gulpfile-1.js",
-				"/C/OpenServer/domains/gulpjs/app/css/style.css",
-				"/C/OpenServer/domains/gulpjs/app/sass/style.sass",
-				"/C/OpenServer/domains/gulpjs/app/index.html",
-				"/c/users/stas/appdata/local/temp/gistfile1.txt",
-				"/c/users/stas/appdata/local/temp/list_frontend_snippets.txt",
-				"/C/dev/sublime-3dev/Data/Packages/User/ApplySyntax.sublime-settings",
-				"/C/dev/sublime-3dev/Data/Packages/ApplySyntax/ApplySyntax.sublime-settings",
-				"/C/OpenServer/domains/gulpjs/gulpfile.js",
-				"/C/OpenServer/domains/gulpjs/package.json",
-				"/C/dev/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/C/dev/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Preferences.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/C/OpenServer/domains/gulpjs/app/style.css",
-				"/C/OpenServer/domains/gulpjs/app/style.sass",
-				"/C/OpenServer/domains/gulpjs/app/sublime-settings.html",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/LiveReload.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Preferences.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Default/Default (Windows).sublime-keymap",
-				"/C/OpenServer/domains/gulpjs/gulp.sublime-project",
-				"/C/OpenServer/domains/gulpjs/index.html",
-				"/C/OpenServer/domains/gulpjs/css/common.css",
-				"/C/OpenServer/domains/gulpjs/css/font.css",
-				"/C/OpenServer/domains/gulpjs/app/css/bundle.min.css",
-				"/C/OpenServer/domains/gulpjs/app/bundle.css",
-				"/C/OpenServer/domains/landing/css/sass/skins/tomato.sass",
-				"/C/OpenServer/domains/landing/css/sass/fonts.sass",
-				"/C/OpenServer/domains/landing/css/sass/main.sass",
-				"/C/OpenServer/domains/landing/js/common.js",
-				"/C/OpenServer/domains/landing/index.html",
-				"/C/OpenServer/domains/landing/_src/_clean_html/index.html",
-				"/C/OpenServer/domains/landing/img/logo.svg",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
-				"/C/OpenServer/domains/landing/_src/_clean_html/css/sass/main.sass",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Tag Package.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Tag/Tag Package.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Diffy/Diffy.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Diffy.sublime-settings",
-				"/C/OpenServer/domains/landing/css/main.css",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/LiveReload/LiveReload.sublime-settings",
-				"/C/OpenServer/domains/landing/libs/bootstrap/bootstrap-grid.min.css",
-				"/C/OpenServer/domains/landing/livereload.js",
-				"/C/OpenServer/domains/landing/wordpress-landing-page-lesson-master/_clean_html/index.html",
-				"/C/OpenServer/domains/gulpjs/css/main.css",
-				"/C/OpenServer/domains/gulpjs/css/normalize.css",
-				"/C/OpenServer/domains/gulpjs/css/normalize.min.css",
-				"/C/OpenServer/domains/gulpjs/js/main.js",
-				"/C/OpenServer/domains/gulpjs/js/vendor/jquery-1.11.2.min.js",
-				"/C/OpenServer/domains/gulpjs/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
-				"/C/OpenServer/domains/gulpjs/.htaccess",
-				"/C/OpenServer/domains/gulpjs/404.html",
-				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/package.json",
-				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/gulpfile.js",
-				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/mainall.css",
-				"/C/OpenServer/domains/tsvetkov.pro/wp-content/themes/MyTheme/app/bundle.css",
-				"/C/Users/stas/Downloads/wp_term_taxonomy.sql",
-				"/C/OpenServer/domains/tsvetkovpro/gulpfile.js",
-				"/C/Users/stas/Downloads/wp_posts.sql",
-				"/C/Users/stas/Downloads/wp_terms.sql",
-				"/C/Users/stas/Downloads/wp_term_relationships.sql",
-				"/C/Users/stas/Desktop/main.css",
-				"/C/Users/stas/Desktop/index.html",
-				"/C/OpenServer/domains/tsvetkovpro/package.json",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/footer.php",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/functions.php",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/theme-options.php",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/header.php",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/css/main.css",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/index.php",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Gist.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Default (Windows).sublime-keymap",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Gist/Gist.sublime-settings",
-				"/C/Users/stas/Desktop/Makety_Korporativnykh_Vizitok_V_Vektore.svg",
-				"/C/OpenServer/domains/localhost/wp/wp-content/themes/MyTheme/function.php",
-				"/C/dev/portfolio/css/sass/fonts.sass",
-				"/C/dev/portfolio/css/sass/skins/tomato.sass",
-				"/C/dev/portfolio/js/common.js",
-				"/C/dev/portfolio/index.html",
-				"/C/dev/portfolio/1.html",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/ZenTabs.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/ZenTabs.sublime-settings",
-				"/C/dev/portfolio/css/media.css",
-				"/C/dev/portfolio/css/sass/main.sass",
-				"/C/dev/wp-lessons/_clean_html/index.html",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/Default.sublime-keymap",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/Default.sublime-keymap",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/Zen Tabs/TODO.todo",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-				"/C/dev/sublime/sublime-3dev/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/C/dev/portfolio/libs/bootstrap/bootstrap-grid.min.css",
-				"/C/dev/wp-lessons/_clean_html/css/sass/main.sass",
-				"/C/dev/wp-lessons/__clean_html_original/index.html",
-				"/C/dev/portfolio/css/fonts.css",
-				"/C/dev/portfolio/img/logo.svg",
-				"/C/dev/portfolio/css/skins/tomato.css",
-				"/C/dev/wp-lessons/_clean_html/js/common.js",
-				"/C/dev/sublime/test/index.html",
-				"/C/dev/sublime/test/style.css",
-				"/C/dev/wp-lessons/_clean_html/libs/bootstrap/bootstrap-grid.min.css"
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -395,7 +292,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 35.0
 			},
 			"input":
 			{
@@ -409,7 +306,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 58.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -457,7 +354,7 @@
 			{
 			}
 		},
-		"new_window_width": 1844.0
+		"new_window_width": 1816.0
 	},
 	"windows":
 	[
@@ -558,10 +455,14 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 330.0,
-				"last_filter": "settuse",
+				"height": 400.0,
+				"last_filter": "setsyc",
 				"selected_items":
 				[
+					[
+						"setsyc",
+						"Set Syntax: CSS"
+					],
 					[
 						"settuse",
 						"Preferences: Settings - User"
@@ -671,7 +572,7 @@
 						"Package Control: Advanced Install Package"
 					]
 				],
-				"width": 536.0
+				"width": 520.0
 			},
 			"console":
 			{
@@ -695,7 +596,7 @@
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -757,7 +658,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 35.0
 			},
 			"input":
 			{
@@ -783,7 +684,7 @@
 				"cols":
 				[
 					0.0,
-					0.644615052443,
+					0.678239475123,
 					1.0
 				],
 				"rows":
@@ -798,11 +699,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,1082,-4,540,1828",
+			"position": "0,2,3,-1,-1,-1,-1,756,220,214,2052",
 			"project": "",
 			"replace":
 			{
-				"height": 58.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -840,7 +741,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},
@@ -853,7 +754,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 7,
+			"window_id": 13,
 			"workspace_name": ""
 		}
 	],

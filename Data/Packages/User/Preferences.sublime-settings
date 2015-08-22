@@ -29,7 +29,10 @@
 	[
 	"*.sublime-workspace",
 	"*.sublime-project",
-	".gitattributes"
+	".gitattributes",
+	".gitignore",
+	".gitignore",
+	"*.md"
 	],
 	"font_size": 15,
 	"highlight_line": true,
