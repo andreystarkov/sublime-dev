@@ -1,12 +1,6 @@
 {
 	"folder_history":
 	[
-		"/E/desktop/tsvetkov.pro/cardio theme",
-		"/C/OpenServer/domains/js",
-		"/C/OpenServer/domains/gulpjs",
-		"/C/OpenServer/domains/localhost",
-		"/C/dev/portfolio",
-		"/C/dev/wp-lessons"
 	],
 	"last_version": 3075,
 	"last_window_id": 11,
@@ -698,6 +692,7 @@
 			},
 			"file_history":
 			[
+				"/D/www/Dropbox/apps/git/sublime-dev/Data/Packages/User/Preferences.sublime-settings",
 				"/E/desktop/tsvetkov.pro/cardio theme/js/main.js",
 				"/E/desktop/tsvetkov.pro/cardio theme/css/cardio.css",
 				"/E/desktop/tsvetkov.pro/cardio theme/index.html",
@@ -976,8 +971,6 @@
 	{
 		"recent_workspaces":
 		[
-			"/C/OpenServer/domains/js/js.sublime-workspace",
-			"/C/OpenServer/domains/gulpjs/gulp.sublime-workspace"
 		]
 	}
 }

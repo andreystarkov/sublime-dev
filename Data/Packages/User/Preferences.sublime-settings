@@ -25,18 +25,18 @@
 		"CVS",
 		"node_modules"
 	],
+	"file_exclude_patterns":
+	[
+	"*.sublime-workspace",
+	"*.sublime-project",
+	".gitattributes"
+	],
 	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	],
-	"include_file_patterns":
-	[
-		"*.sublime-project",
-		"*.sublime-workspace",
-		".gitattributes"
 	],
 	"indent_guide_options":
 	[
