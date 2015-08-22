@@ -25,6 +25,38 @@
 - [Side​Bar​Enhancements](https://packagecontrol.io/packages/SideBarEnhancements) - Enhancements to Sublime Text sidebar. Files and folders.
 - [Syntax Highlighting for Sass](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) - Perfect syntax highlighting for both SCSS and Sass.
 
+### Hotkeys
+* 1. [Горячие клавиши PDF](somefiles\hot-keys.pdf)
+* 2. [Горячие клавиши PNG](somefiles\hot-keys.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
