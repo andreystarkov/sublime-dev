@@ -25,6 +25,15 @@
 - [Side​Bar​Enhancements](https://packagecontrol.io/packages/SideBarEnhancements) - Enhancements to Sublime Text sidebar. Files and folders.
 - [Syntax Highlighting for Sass](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) - Perfect syntax highlighting for both SCSS and Sass.
 
+##### Interesting plugins, but they are not in this build
+- [Nettuts+ Fetch](https://packagecontrol.io/packages/Nettuts%2B%20Fetch) - Fetch the latest version of remote files and zip packages
+- [SFTP](https://packagecontrol.io/packages/SFTP) - Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration
+- [Easy​Motion](https://packagecontrol.io/packages/EasyMotion) - Plugin to quickly jump to any character in the visible area of the active view.
+- [SVG-Snippets](https://packagecontrol.io/packages/SVG-Snippets) - A set of custom SVG snippets
+
+
+
+
 ### Hotkeys
 * 1. [Горячие клавиши PDF](somefiles/hot-keys.pdf)
 * 2. [Горячие клавиши PNG](somefiles/hot-keys.png)
