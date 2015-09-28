@@ -14,8 +14,18 @@
 	"caret_extra_bottom": 6,
 	"caret_extra_top": 6,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti_orig.tmTheme",
+	"color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
 	"default_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.sublime-workspace",
+		"*.sublime-project",
+		".gitattributes",
+		".gitignore",
+		".gitignore",
+		".bowerrc",
+		"*.md"
+	],
 	"fold_buttons": false,
 	"folder_exclude_patterns":
 	[
@@ -25,21 +35,14 @@
 		"CVS",
 		"node_modules"
 	],
-	"file_exclude_patterns":
-	[
-	"*.sublime-workspace",
-	"*.sublime-project",
-	".gitattributes",
-	".gitignore",
-	".gitignore",
-	".bowerrc",
-	"*.md"
-	],
-	"font_size": 15,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Autoprefixer",
+		"JavaScript",
+		"LiveReload",
 		"Vintage"
 	],
 	"indent_guide_options":
