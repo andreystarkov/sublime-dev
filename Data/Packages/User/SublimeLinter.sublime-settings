@@ -6,10 +6,39 @@
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "save only",
-        "linters": {},
-        "mark_style": "outline",
+        "linters": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "htmltidy": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "phplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "stippled underline",
         "no_column_highlights_line": false,
-        "passive_warnings": false,
+        "passive_warnings": true,
         "paths": {
             "linux": [],
             "osx": [],

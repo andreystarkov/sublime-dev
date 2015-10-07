@@ -64,5 +64,35 @@
 	"theme": "Seti.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
-	"word_wrap": "false"
+	"word_wrap": "false",
+	"sublimelinter": true,
+	"javascript_linter": "jslint",
+  "sublimelinter_executable_map":
+  {
+      "javascript":"C:\\Program Files\\nodejs\\node.exe",
+      "jslint":"C:\\Program Files\\nodejs\\node.exe",
+      "css":"C:\\Program Files\\nodejs\\node.exe"
+  },
+	"jshint_options":
+	{
+	    "strict": true,
+	    "noarg": true,
+	    "noempty": true,
+	    "eqeqeq": true,
+	    "undef": true,
+	    "curly": true,
+	    "forin": true,
+	    "devel": true,
+	    "jquery": true,
+	    "browser": true,
+	    "wsh": true,
+	    "evil": true
+	},
+	"csslint_options":
+	{
+    "qualified-headings": false,
+    "ids": false
+	},
+    "sublimelinter_popup_errors_on_save": true,
+    "sublimelinter_gutter_marks": true
 }
