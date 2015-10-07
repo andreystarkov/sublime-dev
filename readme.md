@@ -4,13 +4,13 @@
 
 ### Кастомные цветовые схемы
 
-	Две основные цветовые схемы: твикнутые версии Seti UI и One Dark, кастомизируемые под определенный тип данных.
+Две основные цветовые схемы: твикнутые версии Seti UI и One Dark, кастомизируемые под определенный тип данных.
 
-	Назначать кастомные схемы типам данных можно через меню <b>Preferences -> Settings - More --> Syntax Specific</b>.
+Назначать кастомные схемы можно через меню Preferences -> Settings - More --> Syntax Specific.
 
-	<p align="center">
-	<img src="Build/sublime.jpg" width="100%">
-	</p>
+<p align="center">
+<img src="Build/sublime.jpg" width="100%">
+</p>
 
 ### Для работы SublimeLinter
 
