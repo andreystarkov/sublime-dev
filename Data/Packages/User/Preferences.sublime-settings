@@ -15,7 +15,12 @@
 	"caret_extra_bottom": 6,
 	"caret_extra_top": 6,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
+	"csslint_options":
+	{
+		"ids": false,
+		"qualified-headings": false
+	},
 	"default_encoding": "UTF-8",
 	"file_exclude_patterns":
 	[
@@ -55,44 +60,39 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"javascript_linter": "jslint",
+	"jshint_options":
+	{
+		"browser": true,
+		"curly": true,
+		"devel": true,
+		"eqeqeq": true,
+		"evil": true,
+		"forin": true,
+		"jquery": true,
+		"noarg": true,
+		"noempty": true,
+		"strict": true,
+		"undef": true,
+		"wsh": true
+	},
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"margin": 2,
 	"overlay_scroll_bars": "enabled",
 	"show_tab_close_buttons": false,
+	"sublimelinter": true,
+	"sublimelinter_executable_map":
+	{
+		"css": "C:\\Program Files\\nodejs\\node.exe",
+		"javascript": "C:\\Program Files\\nodejs\\node.exe",
+		"jslint": "C:\\Program Files\\nodejs\\node.exe"
+	},
+	"sublimelinter_gutter_marks": true,
+	"sublimelinter_popup_errors_on_save": true,
 	"tab_size": 2,
 	"theme": "Seti.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
-	"word_wrap": "false",
-	"sublimelinter": true,
-	"javascript_linter": "jslint",
-  "sublimelinter_executable_map":
-  {
-      "javascript":"C:\\Program Files\\nodejs\\node.exe",
-      "jslint":"C:\\Program Files\\nodejs\\node.exe",
-      "css":"C:\\Program Files\\nodejs\\node.exe"
-  },
-	"jshint_options":
-	{
-	    "strict": true,
-	    "noarg": true,
-	    "noempty": true,
-	    "eqeqeq": true,
-	    "undef": true,
-	    "curly": true,
-	    "forin": true,
-	    "devel": true,
-	    "jquery": true,
-	    "browser": true,
-	    "wsh": true,
-	    "evil": true
-	},
-	"csslint_options":
-	{
-    "qualified-headings": false,
-    "ids": false
-	},
-    "sublimelinter_popup_errors_on_save": true,
-    "sublimelinter_gutter_marks": true
+	"word_wrap": "false"
 }

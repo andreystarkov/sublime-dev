@@ -2,19 +2,15 @@
 
 Наш билд Sublime Text 3 для фронт-энда, с небольшой оглядкой на фул-стак.
 
-### Цветовые схемы
+### Кастомные цветовые схемы
 
-Можно менять через плагины Themr/Schemr.
+	Две основные цветовые схемы: твикнутые версии Seti UI и One Dark, кастомизируемые под определенный тип данных.
 
-<p align="center">
-<img src="Build/sublime-seti.jpg" width="100%">
-<div align="left"><i>Seti UI</i></div>
-</p>
+	Назначать кастомные схемы типам данных можно через меню <b>Preferences -> Settings - More --> Syntax Specific</b>.
 
-<p align="center">
-<img src="Build/sublime-one.jpg" width="100%">
-<div align="left"><i>One Dark (типа Atom)</i></div>
-</p>
+	<p align="center">
+	<img src="Build/sublime.jpg" width="100%">
+	</p>
 
 ### Для работы SublimeLinter
 
