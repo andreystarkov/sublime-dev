@@ -1,9 +1,9 @@
 {
 	"folder_history":
 	[
+		"/D/^work/^openserver/domains/m-rest.ru",
 		"/D/^work/^current/robotodraft-webfont",
-		"/D/^work/^openserver/domains/localhost/build-system",
-		"/D/^work/^openserver/domains/m-rest.ru"
+		"/D/^work/^openserver/domains/localhost/build-system"
 	],
 	"last_version": 3075,
 	"last_window_id": 14,
@@ -498,6 +498,25 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "// by Andrey Starkov (im@andreystarkov.ru)\n// npm install gulp-util gulp-notify gulp-less gulp-minify-css gulp-compass gulp-ruby-sass gulp-autoprefixer gulp-uglify gulp-watch gulp-rigger gulp-imagemin imagemin-pngquant rimra gulp-connect gulp-sass wiredep gulp-useref gulp-if vinyl-ftp browser-sync gulp-concat gulp-jshint gulp-cache del --save-dev\n\nvar gulp = require('gulp'),\n    rename = require(\"gulp-rename\"),\n    notify = require('gulp-notify'),\n    del = require('del'),\n    size = require('gulp-size'),\n    path = require('path'),\n    concat = require('gulp-concat'),\n    less = require('gulp-less'),\n    autoprefixer = require('gulp-autoprefixer'),\n    csscomb = require('gulp-csscomb'),\n    uglify = require('gulp-uglify'),\n    plumber = require('gulp-plumber'),\n    ignoreErrors = require('gulp-ignore-errors'),\n    minifyCss = require('gulp-minify-css');\n\n\nvar assetsDir = 'app/assets/';\nvar distDir = 'app/assets/dist';\n\nvar LESSDir = assetsDir + 'styles/';\nvar CSSDir = assetsDir + 'css/';\nvar JSDir = assetsDir + 'js/';\n\nvar LESSFiles = [\n  LESSDir + 'styles.less'\n  ];\n\nvar JSFiles = [\n  assetsDir + 'libs/jquery/dist/jquery.min.js',\n  assetsDir + 'libs/bootstrap/dist/js/bootstrap.min.js',\n  assetsDir + 'libs/bootstrap-material-design/dist/js/material.min.js',\n  assetsDir + 'libs/bootstrap-material-design/dist/js/ripples.min.js',\n  assetsDir + 'libs/jquery-waypoints/lib/jquery.waypoints.min.js',\n  assetsDir + 'libs/flexslider/jquery.flexslider-min.js',\n  assetsDir + 'libs/fancybox/source/jquery.fancybox.js',\n   assetsDir + 'js/vendor/detect.min.js',\n//  assetsDir + 'libs/jquery-mousewheel/jquery.mousewheel.min.js',\n  assetsDir + 'libs/classie/classie.js',\n  assetsDir + 'libs/wow/dist/wow.min.js',\n // assetsDir + 'js/vendor/svg.min.js',\n  assetsDir + 'js/vendor/transit.min.js',\n  assetsDir + 'libs/snackbarjs/src/snackbar.js',\n  assetsDir + 'libs/vivus/dist/vivus.min.js',\n  //assetsDir + 'libs/retina.js/dist/retina.js',\n  assetsDir + 'js/instagram.js',\n  assetsDir + 'js/slider.js',\n  assetsDir + 'js/top-navigation.js',\n  assetsDir + 'js/scripts.js',\n  assetsDir + 'js/template.js'\n];\n\n\ngulp.task('less', function() {\n  gulp.src(LESSFiles)\n    .pipe(less())\n    .pipe(autoprefixer())\n    .pipe(csscomb())\n    .pipe(gulp.dest(assetsDir + 'css'))\n    .pipe(size({\n        title: 'Less done'\n    }));\n});\n\ngulp.task('css-min', function() {\n  gulp.src([assetsDir + 'css/styles.css', assetsDir + 'css/queries.css'])\n    .pipe(concat('app.min.css'))\n    .pipe(minifyCss())\n    .pipe(size({\n        title: 'CSS Merged/Minifed'\n    }))\n    .pipe(gulp.dest(distDir));\n});\n\n\ngulp.task('js-merge', function() {\n  return gulp.src(JSFiles)\n    .pipe(sourcemaps.init())\n    .pipe(concat('app.js'))\n    .pipe(gulp.dest(distDir))\n    .pipe(rename({ suffix: '.min' }))\n    .pipe(uglify())\n    .pipe(sourcemaps.write('./'))\n    .pipe(size({\n        title: 'Total JavaScript'\n    }))\n    .pipe(gulp.dest(distDir));\n});\n\ngulp.task('images', function () {\n    return gulp.src(assetsDir + 'img/**/*.*')\n        .pipe(imagemin({\n            progressive: true,\n            optimizationLevel: 5,\n            use: [pngquant()],\n            interlaced: true\n        }))\n        .pipe(size({\n            title: 'Images'\n        }))\n        .pipe(gulp.dest('./build/img'));\n});\n\ngulp.task('svg', function () {\n    return gulp.src(assetsDir + 'svg-icons/**/*.svg')\n        .pipe(svgmin())\n        .pipe(size({\n            title: 'SVG'\n        }))\n        .pipe(gulp.dest('./build/svg'));\n});\n\n\ngulp.task('watch', function () {\n    gulp.watch(LESSDir + '**/*.less', ['less']);\n    gulp.watch(assetsDir + 'css/*.css', ['css-merge']);\n    gulp.watch(assetsDir + 'js/*.js', ['js-merge']);\n});\n\ngulp.task('default', ['less', 'js-merge', , 'css-min', 'watch']);",
+					"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
+					"file_size": 3877,
+					"file_write_time": 130879385971441171,
+					"settings":
+					{
+						"buffer_size": 3756,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/^work/^openserver/domains/m-rest.ru/Gemfile.lock",
+					"settings":
+					{
+						"buffer_size": 183,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -710,8 +729,14 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/D/^work/^openserver/domains/m-rest.ru",
+				"/D/^work/^openserver/domains/m-rest.ru/app"
+			],
 			"file_history":
 			[
+				"/D/^work/^openserver/domains/m-rest.ru/Gemfile",
 				"/D/^work/_tools/sublime-dev/readme.md",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/misc.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/svg.less",
@@ -881,11 +906,212 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "D:\\^work\\^openserver\\domains\\m-rest.ru"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3756,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1222,
+										1222
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"apply_syntax_touched": true,
+									"bh_regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content"
+									],
+									"bs_sintax": "gulpfile js",
+									"buffer_scroll_name": "b18ec4c9",
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"spell_check": false,
+									"synced": false,
+									"syntax": "Packages/Seti_UI/Langs/Gulpfile JS.tmLanguage",
+									"tab_size": 2,
+									"tabs_extra_last_activated": 1444192844.25,
+									"tabs_extra_last_activated_sheet_index": 0,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 759.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/D/^work/^openserver/domains/m-rest.ru/Gemfile.lock",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 183,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"apply_syntax_touched": true,
+									"bh_regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content"
+									],
+									"bs_sintax": "ruby on rails",
+									"buffer_scroll_name": "e92c6560",
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tabs_extra_last_activated": 1444192915.64,
+									"tabs_extra_last_activated_sheet_index": 1,
+									"tabs_extra_spawned": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				},
 				{
@@ -945,7 +1171,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-32000,-32026,-1,-1,620,-97,78,1735",
+			"position": "0,2,3,-1,-1,-1,-1,620,-97,78,1735",
 			"project": "",
 			"replace":
 			{
