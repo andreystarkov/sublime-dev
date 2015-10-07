@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/D/^work/^current/robotodraft-webfont",
 		"/D/^work/^openserver/domains/localhost/build-system",
 		"/D/^work/^openserver/domains/m-rest.ru"
 	],
@@ -497,82 +498,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "// by Andrey Starkov (im@andreystarkov.ru)\n// npm install gulp-util gulp-notify gulp-less gulp-minify-css gulp-compass gulp-ruby-sass gulp-autoprefixer gulp-uglify gulp-watch gulp-rigger gulp-imagemin imagemin-pngquant rimra gulp-connect gulp-sass wiredep gulp-useref gulp-if vinyl-ftp browser-sync gulp-concat gulp-jshint gulp-cache del --save-dev\n\nvar gulp = require('gulp'), // Task runner\n    rename = require(\"gulp-rename\"),\n  //  gutil = require('gulp-util'),\n    notify = require('gulp-notify'),\n    del = require('del'),\n    size = require('gulp-size'),\n    path = require('path'),\n   // processhtml = require('gulp-processhtml'),\n    concat = require('gulp-concat'),\n    less = require('gulp-less'), \n    autoprefixer = require('gulp-autoprefixer'),\n    csscomb = require('gulp-csscomb'), \n    uglify = require('gulp-uglify'),\n    plumber = require('gulp-plumber'),\n    ignoreErrors = require('gulp-ignore-errors'),\n    minifyCss = require('gulp-minify-css');\n\n\nvar assetsDir = 'app/assets/';\nvar distDir = 'app/assets/dist';\n\nvar LESSDir = assetsDir + 'styles/';\nvar CSSDir = assetsDir + 'css/';\nvar JSDir = assetsDir + 'js/';\n\nvar LESSFiles = [\n  LESSDir + 'styles.less'\n  ];\n\nvar JSFiles = [\n  assetsDir + 'libs/jquery/dist/jquery.min.js',\n  assetsDir + 'libs/bootstrap/dist/js/bootstrap.min.js',\n  assetsDir + 'libs/bootstrap-material-design/dist/js/material.min.js',\n  assetsDir + 'libs/bootstrap-material-design/dist/js/ripples.min.js',\n  assetsDir + 'libs/jquery-waypoints/lib/jquery.waypoints.min.js',\n  assetsDir + 'libs/flexslider/jquery.flexslider-min.js',\n  assetsDir + 'libs/fancybox/source/jquery.fancybox.js',\n   assetsDir + 'js/vendor/detect.min.js',\n//  assetsDir + 'libs/jquery-mousewheel/jquery.mousewheel.min.js',\n  assetsDir + 'libs/classie/classie.js',\n  assetsDir + 'libs/wow/dist/wow.min.js',\n // assetsDir + 'js/vendor/svg.min.js',\n  assetsDir + 'js/vendor/transit.min.js',\n  assetsDir + 'libs/snackbarjs/src/snackbar.js',\n  assetsDir + 'libs/vivus/dist/vivus.min.js',\n  //assetsDir + 'libs/retina.js/dist/retina.js',\n  assetsDir + 'js/instagram.js',\n  assetsDir + 'js/slider.js',\n  assetsDir + 'js/top-navigation.js',\n  assetsDir + 'js/scripts.js',\n  assetsDir + 'js/template.js'\n];\n\n\ngulp.task('less', function() {\n  gulp.src(LESSFiles)\n    .pipe(less())\n    .pipe(autoprefixer())\n    .pipe(csscomb())\n    .pipe(gulp.dest(assetsDir + 'css'))\n    .pipe(size({\n        title: 'Less done'\n    }));\n});\n\ngulp.task('css-min', function() {\n  gulp.src([assetsDir + 'css/styles.css', assetsDir + 'css/queries.css'])\n    .pipe(concat('app.min.css'))\n    .pipe(minifyCss())\n    .pipe(size({\n        title: 'CSS Merged/Minifed'\n    }))\n    .pipe(gulp.dest(distDir));\n});\n\n\ngulp.task('js-merge', function() {\n  return gulp.src(JSFiles)\n    .pipe(sourcemaps.init())\n    .pipe(concat('app.js'))\n    .pipe(gulp.dest(distDir))\n    .pipe(rename({ suffix: '.min' }))\n    .pipe(uglify())\n    .pipe(sourcemaps.write('./'))\n    .pipe(size({\n        title: 'Total JavaScript'\n    }))\n    .pipe(gulp.dest(distDir));\n});\n\ngulp.task('images', function () {\n    return gulp.src(assetsDir + 'img/**/*.*')\n        .pipe(imagemin({\n            progressive: true,\n            optimizationLevel: 5,\n            use: [pngquant()],\n            interlaced: true\n        }))\n        .pipe(size({\n            title: 'Images'\n        }))\n        .pipe(gulp.dest('./build/img'));\n});\n\ngulp.task('svg', function () {\n    return gulp.src(assetsDir + 'svg-icons/**/*.svg')\n        .pipe(svgmin())\n        .pipe(size({\n            title: 'SVG'\n        }))\n        .pipe(gulp.dest('./build/svg'));\n});\n\n\ngulp.task('watch', function () {\n    gulp.watch(LESSDir + '**/*.less', ['less']);\n    gulp.watch(assetsDir + 'css/*.css', ['css-merge']);\n    gulp.watch(assetsDir + 'js/*.js', ['js-merge']);\n});\n\ngulp.task('default', ['less', 'js-merge', , 'css-min', 'watch']);",
-					"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
-					"file_size": 5176,
-					"file_write_time": 130879380453584403,
-					"settings":
-					{
-						"buffer_size": 3858,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/styles.less",
-					"settings":
-					{
-						"buffer_size": 822,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/css/styles.css",
-					"settings":
-					{
-						"buffer_size": 2648141,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "",
-					"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/css/fonts.css",
-					"file_size": 679,
-					"file_write_time": 130879364150118465,
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "\nvar CSSFiles = [\n  assetsDir + 'libs/bootstrap/dist/css/bootstrap.min.css',\n  assetsDir + 'libs/animate.css/animate.min.css',\n  assetsDir + 'css/normalize.min.css',\n  assetsDir + 'css/pongstagr.am.css',\n  assetsDir + 'css/snackbar.min.css',\n  assetsDir + 'css/jquery.fancybox.css',\n  assetsDir + 'css/flexslider.css',\n  assetsDir + 'css/main.css'\n];\n",
-					"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.config.js",
-					"file_size": 598,
-					"file_write_time": 130879274710589247,
-					"settings":
-					{
-						"buffer_size": 351,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/^work/^openserver/domains/m-rest.ru/less.old",
-					"settings":
-					{
-						"buffer_size": 1025,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/js/scripts.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "'use strict';\n\n/************/\n/* Settings */\n/************/\n\n/* Gulp plugins */\nvar gulp = require('gulp'), // Task runner\n    watch = require('gulp-watch'), // Watch, that actually is an endless stream\n    rename = require(\"gulp-rename\"), // Rename files\n    del = require('del'), // Delete something\n    rigger = require('gulp-rigger'), // // Include content of one file to another\n    size = require('gulp-size'), // Display the size of something\n    path = require('path'),\n    processhtml = require('gulp-processhtml'), // Plugin uses Denis Ciccale's node-htmlprocessor to process/transform html files\n    concat = require('gulp-concat'), // Concatenates files\n    streamqueue = require('streamqueue'), // Pipe queued streams progressively, keeping datas order.\n    sourcemaps = require('gulp-sourcemaps'), // Write source maps\n    less = require('gulp-less'), // Compile Less to CSS\n    lessReporter = require('gulp-less-reporter'), // Error reporter for gulp-less\n    autoprefixer = require('gulp-autoprefixer'), // Prefix CSS\n    csscomb = require('gulp-csscomb'), // Coding style formatter for CSS\n    minifycss = require('gulp-minify-css'), // Minify CSS\n    uglify = require('gulp-uglify'), // Minify JS\n    jshint = require('gulp-jshint'), // JS code linter\n    stylish = require('jshint-stylish'), // Reporter for JSHint\n    gulp-rigger gulp-renamegulp-size gulp-processhtml streamqueue gulp-minify-css gulp-csscomb jshint-stylish browser-sync gulp-imagemin gulp-gh-pages imagemin-pngquant gulp-jshint gulp-svg-spritesheet gulp-svgmin gulp-svg2png\n    imagemin = require('gulp-imagemin'), // Optimize images\n    pngquant = require('imagemin-pngquant'), // PNG plugin for ImageMin\n    spritesmith = require('gulp.spritesmith'), // Convert a set of images into a spritesheet and CSS variables\n    svg2png = require('gulp-svg2png'), // Convert SVGs to PNGs\n    svgmin = require('gulp-svgmin'), // Minify SVG with SVGO\n    svgspritesheet = require('gulp-svg-spritesheet'), // Convert a set of SVGs into a spritesheet and CSS variables\n    browserSync = require(\"browser-sync\"), // Synchronised browser testing\n    reload = browserSync.reload,\n    ghPages = require('gulp-gh-pages'), // Publish contents to Github pages\n    runSequence = require('run-sequence').use(gulp); // Run a series of dependent gulp tasks in order\n\n/* Path settings */\nvar projectPath = {\n    build: { // Set build paths\n        html: 'build/',\n        js: 'build/js/',\n        jsMainFile: 'main.js',\n        css: 'build/css/',\n        img: 'build/img/images/',\n        svg: 'build/img/svg/',\n        pngSprite: 'build/img/sprites/png/',\n        pngSpriteCSS: 'src/styles/common/',\n        svgSprite: 'build/img/sprites/svg/svg-sprite.svg',\n        svgSpriteNoSvg: 'build/img/sprites/svg/svg-sprite.png',\n        svgSpriteCSS: 'src/styles/common/_svg-sprite.less',\n        fonts: 'build/css/fonts/'\n    },\n    src: { // Set source paths\n        html: ['src/**/*.html', 'humans.txt'],\n        jsCustom: 'src/js/custom.js',\n        jsVendor: 'src/js/vendor.js',\n        style: 'src/styles/style.less',\n        img: 'src/img/images/**/*.*',\n        svg: 'src/img/svg/**/*.svg',\n        pngSprite: 'src/img/sprites/png/**/*.png',\n        pngRetinaSprite: 'src/img/sprites/png/**/*-2x.png',\n        svgSprite: 'src/img/sprites/svg/**/*.svg',\n        svgSpriteTpl: 'src/styles/common/_svg-sprite-less.tpl',\n        fonts: 'src/styles/fonts/**/*.*'\n    },\n    watch: { // Set watch paths\n        html: 'src/**/*.html',\n        js: 'src/js/**/*.js',\n        style: 'src/styles/**/*.less',\n        img: 'src/img/images/**/*.*',\n        svg: 'src/img/svg/**/*.svg',\n        pngSprite: 'src/img/sprites/png/**/*.png',\n        svgSprite: 'src/img/sprites/svg/**/*.svg',\n        fonts: 'src/styles/fonts/**/*.*'\n    },\n    clean: ['build/**/*', '!build/.gitignore', '!build/humans.txt'], // Set paths and exludes for cleaning build dir\n    ghPages: 'build/**/*' // Set dir that will be uploaded to GitHub Pages\n};\n\n/* BrowserSync local web server settings */\nvar config = {\n    server: {\n        baseDir: \"./build\"\n    },\n    tunnel: true,\n    host: 'localhost',\n    port: 9000,\n    injectChanges: true,\n    logPrefix: \"App Front-End\"\n};\n\n/*********/\n/* Tasks */\n/*********/\n\n/* BrowserSync local web server*/\ngulp.task('webserver', function () {\n    browserSync(config);\n});\n\n/* HTML */\ngulp.task('html', function () {\n    return gulp.src(projectPath.src.html)\n        .pipe(processhtml({\n            recursive: true\n        }))\n        .pipe(size({\n            title: 'HTML'\n        }))\n        .pipe(gulp.dest(projectPath.build.html))\n        .pipe(reload({stream: true}));\n});\n\n/* JavaScript */\ngulp.task('js', function () {\n    return streamqueue(\n        { objectMode: true },\n        gulp.src(projectPath.src.jsVendor).pipe(rigger()).pipe(size({title: 'Vendor JavaScript'})),\n        gulp.src(projectPath.src.jsCustom).pipe(rigger()).pipe(jshint()).pipe(jshint.reporter(stylish)).pipe(size({title: 'Custom JavaScript'}))\n    )\n        .pipe(concat(projectPath.build.jsMainFile))\n        .pipe(sourcemaps.init())\n        .pipe(gulp.dest(projectPath.build.js))\n        .pipe(rename({ suffix: '.min' }))\n        .pipe(uglify())\n        .pipe(sourcemaps.write('./'))\n        .pipe(size({\n            title: 'Total JavaScript'\n        }))\n        .pipe(gulp.dest(projectPath.build.js))\n        .pipe(reload({stream: true}));\n});\n\n/* Less */\ngulp.task('less', function() {\n    return gulp.src(projectPath.src.style)\n        .pipe(sourcemaps.init())\n        .pipe(less({\n            paths: [ path.join(__dirname, 'less', 'includes') ]\n        }))\n        .on('error', lessReporter)\n        .pipe(autoprefixer('> 2%'))\n        .pipe(csscomb())\n        .pipe(gulp.dest(projectPath.build.css))\n        .pipe(rename({ suffix: '.min' }))\n        .pipe(minifycss())\n        .pipe(sourcemaps.write('./'))\n        .pipe(size({\n            title: 'CSS'\n        }))\n        .pipe(gulp.dest(projectPath.build.css))\n        .pipe(reload({stream: true}));\n});\n\n/* Images */\ngulp.task('images', function () {\n    return gulp.src(projectPath.src.img)\n        .pipe(imagemin({\n            progressive: true,\n            optimizationLevel: 5,\n            use: [pngquant()],\n            interlaced: true\n        }))\n        .pipe(size({\n            title: 'Images'\n        }))\n        .pipe(gulp.dest(projectPath.build.img))\n        .pipe(reload({stream: true}));\n});\n\n/* SVG */\ngulp.task('svg', function () {\n    return gulp.src(projectPath.src.svg)\n        .pipe(svgmin())\n        .pipe(size({\n            title: 'SVG'\n        }))\n        .pipe(gulp.dest(projectPath.build.svg))\n        .pipe(reload({stream: true}));\n});\n\n/* PNG Sprite */\ngulp.task('png-sprite', function () {\n    // Generate spritesheet\n    var spriteData = gulp.src(projectPath.src.pngSprite).pipe(spritesmith({\n        imgName: 'png-sprite.png',\n        imgPath: '../img/sprites/png/png-sprite.png',\n        retinaSrcFilter: projectPath.src.pngRetinaSprite,\n        retinaImgName: 'png-sprite-2x.png',\n        retinaImgPath: '../img/sprites/png/png-sprite-2x.png',\n        padding: 0,\n        cssName: '_png-sprite.less',\n        cssVarMap: function (sprite) {\n            sprite.name = 'sprite__' + sprite.name;\n        }\n    }));\n\n    // Pipe image stream through image optimizer and onto disk\n    spriteData.img\n        .pipe(imagemin())\n        .pipe(gulp.dest(projectPath.build.pngSprite));\n\n    // Pipe CSS stream onto disk\n    spriteData.css\n        .pipe(gulp.dest(projectPath.build.pngSpriteCSS))\n        .pipe(reload({stream:true}));\n});\n\n/* SVG sprite */\ngulp.task('svg-sprite', function () {\n    gulp.src(projectPath.src.svgSprite)\n        .pipe(svgspritesheet({\n            cssPathNoSvg: '../img/sprites/svg/svg-sprite.png',\n            cssPathSvg: '../img/sprites/svg/svg-sprite.svg',\n            padding: 0,\n            pixelBase: 16,\n            positioning: 'packed',\n            templateSrc: projectPath.src.svgSpriteTpl,\n            templateDest: projectPath.build.svgSpriteCSS,\n            units: 'px'\n        }))\n        .pipe(svgmin())\n        .pipe(gulp.dest(projectPath.build.svgSprite))\n        .pipe(svg2png())\n        .pipe(gulp.dest(projectPath.build.svgSpriteNoSvg));\n});\n\n/* Fonts */\ngulp.task('fonts', function() {\n    return gulp.src(projectPath.src.fonts)\n        .pipe(size({\n            title: 'Fonts'\n        }))\n        .pipe(gulp.dest(projectPath.build.fonts))\n        .pipe(reload({stream: true}));\n});\n\n/* Clean build directory */\ngulp.task('clean', function (cb) {\n    del('projectPath.clean', cb);\n});\n\n/* Build */\ngulp.task('build', function(callback) {\n    runSequence(\n        'clean',\n        'html',\n        'js',\n        'less',\n        'images',\n        'png-sprite',\n        'svg-sprite',\n        'svg',\n        'fonts',\n        'gh-pages',\n        callback)\n});\n\n/* Github Pages */\ngulp.task('gh-pages', function() {\n    return gulp.src(projectPath.ghPages)\n        .pipe(ghPages());\n});\n\n/* Watching */\ngulp.task('watch',['webserver'], function(){\n    watch([projectPath.watch.html], function(event, cb) {\n        gulp.start('html');\n    });\n    watch([projectPath.watch.js], function(event, cb) {\n        gulp.start('js');\n    });\n    watch([projectPath.watch.style], function(event, cb) {\n        gulp.start('less');\n    });\n    watch([projectPath.watch.img], function(event, cb) {\n        gulp.start('images');\n    });\n    watch([projectPath.watch.svg], function(event, cb) {\n        gulp.start('svg');\n    });\n    watch([projectPath.watch.pngSprite], function(event, cb) {\n        gulp.start('png-sprite');\n    });\n    watch([projectPath.watch.svgSprite], function(event, cb) {\n        gulp.start('svg-sprite');\n    });\n    watch([projectPath.watch.fonts], function(event, cb) {\n        gulp.start('fonts');\n    });\n});\n\n/* Default */\ngulp.task('default', ['watch', 'less'], function() {\n});",
-					"file": "/D/^work/^openserver/domains/localhost/build-system/gulpfile.js",
-					"file_size": 9937,
-					"file_write_time": 130879154313117613,
-					"settings":
-					{
-						"buffer_size": 9871,
-						"line_ending": "Windows"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -581,10 +506,22 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 108.0,
-				"last_filter": "disab",
+				"height": 400.0,
+				"last_filter": "pi",
 				"selected_items":
 				[
+					[
+						"pi",
+						"Package Control: Install Package"
+					],
+					[
+						"themr",
+						"Themr: List themes"
+					],
+					[
+						"sy css",
+						"Set Syntax: CSS"
+					],
 					[
 						"disab",
 						"Package Control: Disable Package"
@@ -600,10 +537,6 @@
 					[
 						"css ",
 						"Format CSS: Compact"
-					],
-					[
-						"pi",
-						"Package Control: Install Package"
 					],
 					[
 						"scss",
@@ -777,37 +710,45 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/D/^work/^openserver/domains/m-rest.ru",
-				"/D/^work/^openserver/domains/m-rest.ru/app",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements"
-			],
 			"file_history":
 			[
-				"/D/^work/^openserver/domains/m-rest.ru/app/index.php",
-				"/W/domains/m-rest.ru/app/assets/js/vendor/detect.min.js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/template.js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/top-navigation.js",
+				"/D/^work/_tools/sublime-dev/readme.md",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/misc.less",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/svg.less",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/fonts.css",
+				"/D/^work/^current/robotodraft-webfont/index.html",
+				"/D/^work/_tools/sublime-dev/Data/.gitignore",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/Preferences.sublime-settings",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/Base File.sublime-settings",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/sections.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/init.js",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/^work/^current/robotodraft-webfont/robotodraft.css",
+				"/D/^work/^openserver/domains/m-rest.ru/app/index.php",
+				"/D/^work/^current/robotodraft-webfont/.gitignore",
+				"/D/^work/^current/robotodraft-webfont/README.md",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/robotodraft.css",
+				"/D/robotodraft-gh-pages/index.html",
+				"/C/Users/im_000/Desktop/torrent-expandall.js",
+				"/C/Users/im_000/Desktop/ideone_GGXAlt.java",
+				"/W/domains/m-rest.ru/app/.gitignore",
+				"/D/^work/^openserver/domains/localhost/build-system/gulpfile.js",
+				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/styles.less",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/template.js",
+				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.config.js",
+				"/D/^work/^openserver/domains/m-rest.ru/less.old",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/scripts.js",
+				"/W/domains/m-rest.ru/app/assets/js/vendor/detect.min.js",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/top-navigation.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/common.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/cdn.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/vendor/fallback.js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/styles.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/styles.css",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/responsive.less",
-				"/D/^work/^openserver/domains/m-rest.ru/less.old",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/blog.less",
-				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.config.js",
-				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/navigation.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/queries.css",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/scripts.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/fancybox.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/slider.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/flexslider.css",
@@ -815,10 +756,8 @@
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/instagram.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/flexslider.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/_variables.less",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/misc.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/controls.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/gulpfile.js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/sections.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/styles.css",
 				"/D/^work/^openserver/domains/localhost/build-system/app/assets/less/elements/controls.less",
 				"/D/^work/^openserver/domains/localhost/build-system/app/assets/less/elements/sections.less",
@@ -845,13 +784,11 @@
 				"/D/^work/^openserver/domains/localhost/build-system/source/less/main.less",
 				"/D/^work/^openserver/domains/localhost/build-system/app/assets/less/common/typography.less",
 				"/D/^work/^openserver/domains/localhost/build-system/src/styles/common/_variables.less",
-				"/D/^work/^openserver/domains/localhost/build-system/gulpfile.js",
 				"/D/^work/^openserver/domains/m-rest.ru/bower.json",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/libs/font-awesome/bower.json",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/loader.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/less/typebase.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/less/common.less",
-				"/D/^work/_tools/sublime-dev/Data/Packages/User/Preferences.sublime-settings",
 				"/D/^work/^openserver/domains/m-rest.ru/app/sftp-config.json",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/classie.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/ripples.js"
@@ -872,6 +809,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"url('RobotoDraft/",
+					"url('dobotodraft/",
+					"AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789ÄäÖöÜüẞß",
+					"cyrilli",
 					"reti",
 					"on",
 					".less\";",
@@ -920,6 +861,8 @@
 				"regex": false,
 				"replace_history":
 				[
+					"url('robotodraft/",
+					"В стремлении предоставить клиентам максимальный выбор и стать одними из лучших, наша компания предлагает вашему вниманию рестораны и кафе расположенные по всему городу и представляющие кухни разных стран мира. Наши заведения стремятся не только вкусно приготовить то или иное блюдо, но и стараются создать атмосферу той страны, к культуре которой это блюдо принадлежит.",
 					".less';",
 					"@import '",
 					"(inline)",
@@ -938,805 +881,16 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "D:\\^work\\^openserver\\domains\\m-rest.ru"
-				},
-				{
-					"path": "D:\\^work\\^openserver\\domains\\localhost\\build-system"
-				}
-			],
 			"groups":
 			[
 				{
-					"selected": 2,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3858,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2272,
-										2272
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "gulpfile js",
-									"buffer_scroll_name": "b18ec4c9",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/Seti_UI/Langs/Gulpfile JS.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": -0.0,
-								"translation.y": 1794.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/styles.less",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 822,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "less",
-									"buffer_scroll_name": "b9826306",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/LESS/LESS.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/css/styles.css",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 2648141,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6660,
-										6660
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "css",
-									"buffer_scroll_name": "32b76711",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/CSS/CSS.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 4320.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/css/fonts.css",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "css",
-									"buffer_scroll_name": "ab335e5d",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"open_with_edit": true,
-									"remote_loading": false,
-									"synced": false,
-									"syntax": "Packages/CSS/CSS.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/gulpfile.config.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 351,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										163,
-										142
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "javascript (dom)",
-									"buffer_scroll_name": "2912c1f7",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/JavaScript Ultimate/JavaScript (DOM).tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/less.old",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1025,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										664,
-										595
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"bs_sintax": "plain text",
-									"buffer_scroll_name": "695a7e47",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/D/^work/^openserver/domains/m-rest.ru/app/assets/js/scripts.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "javascript (dom)",
-									"buffer_scroll_name": "21aa038b",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/JavaScript Ultimate/JavaScript (DOM).tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
-						}
 					]
 				},
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 7,
-							"file": "/D/^work/^openserver/domains/localhost/build-system/gulpfile.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 9871,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5711,
-										5695
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"apply_syntax_touched": true,
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content"
-									],
-									"bs_sintax": "gulpfile js",
-									"buffer_scroll_name": "8fa6c1c4",
-									"color_scheme": "Packages/User/Color Highlighter/themes/One Dark.tmTheme",
-									"incomplete_sync": null,
-									"remote_loading": false,
-									"spell_check": false,
-									"synced": false,
-									"syntax": "Packages/JavaScript Ultimate/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2760.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"file": "/D/^work/^openserver/domains/m-rest.ru/app/apple-touch-icon.png",
-							"semi_transient": true,
-							"stack_index": 8,
-							"type": "image"
-						}
 					]
 				}
 			],
@@ -1768,7 +922,7 @@
 				"cols":
 				[
 					0.0,
-					0.687532338934,
+					0.526392961877,
 					1.0
 				],
 				"rows":
@@ -1791,7 +945,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-32000,-32030,-1,-1,620,-97,78,1735",
+			"position": "0,2,3,-32000,-32026,-1,-1,620,-97,78,1735",
 			"project": "",
 			"replace":
 			{
@@ -1841,7 +995,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 569.0,
+			"side_bar_width": 215.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

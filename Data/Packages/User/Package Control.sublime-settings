@@ -13,6 +13,7 @@
 		"BracketHighlighter",
 		"BufferScroll",
 		"Color Highlighter",
+		"ColorSchemeEditor",
 		"CSS Format",
 		"CSS3",
 		"CSSLint",
@@ -20,6 +21,7 @@
 		"Emmet",
 		"Future Funk - Color Scheme",
 		"Gist",
+		"GitHub Flavored Markdown Preview",
 		"Goto-CSS-Declaration",
 		"Javascript Beautify",
 		"JavaScript Ultimate",
@@ -37,6 +39,9 @@
 		"SideBarEnhancements",
 		"Syntax Highlighting for Sass",
 		"Tag",
+		"Theme - Dark Material",
+		"Theme - Soda SolarizedDark",
+		"Theme - Solarized Flat",
 		"Themr"
 	]
 }
