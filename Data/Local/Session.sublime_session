@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/D/^work/^openserver/domains/m-rest.ru/app/assets",
 		"/D/^work/_tools/sublime-dev",
 		"/D/^work/^openserver/domains/m-rest.ru",
 		"/D/^work/^current/robotodraft-webfont",
@@ -499,6 +500,17 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "node_modules/\n_/\n.sass-cache/\n*.zip\n*.rar\n*.7z",
+					"file": "/D/^work/^openserver/domains/m-rest.ru/.gitignore",
+					"file_size": 51,
+					"file_write_time": 130851949340000000,
+					"settings":
+					{
+						"buffer_size": 46,
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -507,10 +519,18 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 400.0,
-				"last_filter": "scheme",
+				"height": 110.0,
+				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"bea",
+						"Javascript Beautify"
+					],
+					[
+						"beau",
+						"Javascript Beautify"
+					],
 					[
 						"scheme",
 						"Color Scheme Editor: Edit current color scheme"
@@ -765,26 +785,37 @@
 				"/D/^work/^openserver/domains/m-rest.ru/app",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/vendor",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements",
 				"/D/^work/_tools/sublime-dev"
 			],
 			"file_history":
 			[
+				"/D/^work/^openserver/domains/m-rest.ru/app/browserconfig.xml",
+				"/D/^work/^openserver/domains/m-rest.ru/app/index.php",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/PHP.sublime-settings",
+				"/D/^work/^openserver/domains/m-rest.ru/app/favicon.ico",
+				"/D/^work/^openserver/domains/m-rest.ru/app/testing.php",
+				"/D/^work/^openserver/domains/m-rest.ru/app/restoraunt.php",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/Preferences.sublime-settings",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/JavaScript (DOM).sublime-settings",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/instagram.js",
+				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
+				"/D/^work/_tools/sublime-dev/Data/Packages/User/Gulpfile JS.sublime-settings",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/.gitignore",
+				"/D/^work/^openserver/domains/m-rest.ru/app/.gitignore",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/.gitignore.gitignore",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/top-navigation.js",
+				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/template.js",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/LESS.sublime-settings",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/elements/controls.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/scripts.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/init.js",
-				"/D/^work/_tools/sublime-dev/Data/Packages/User/Preferences.sublime-settings",
-				"/D/^work/^openserver/domains/m-rest.ru/app/favicon.ico",
-				"/D/^work/^openserver/domains/m-rest.ru/app/index.php",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/slider.js",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/JSON.sublime-settings",
-				"/D/^work/_tools/sublime-dev/Data/Packages/User/JavaScript (DOM).sublime-settings",
 				"/D/^work/_tools/sublime-dev/readme.md",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/SublimeLinter/One Dark (SL).tmTheme",
-				"/D/^work/_tools/sublime-dev/Data/Packages/User/PHP.sublime-settings",
-				"/D/^work/_tools/sublime-dev/Data/Packages/User/Gulpfile JS.sublime-settings",
 				"/D/^work/_tools/sublime-dev/Packages/HTML.sublime-package",
 				"/D/^work/_tools/sublime-dev/.gitignore",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/SublimeLinter.sublime-settings",
@@ -792,7 +823,6 @@
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/queries.css",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/css/styles.css",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.js",
 				"/D/^work/_tools/sublime-dev/Data/Packages/User/Sound.sublime-settings",
 				"/D/^work/_tools/sublime-dev/Data/Packages/Sound/Sound.sublime-settings",
 				"/D/^work/^openserver/domains/m-rest.ru/Gemfile",
@@ -813,11 +843,9 @@
 				"/W/domains/m-rest.ru/app/.gitignore",
 				"/D/^work/^openserver/domains/localhost/build-system/gulpfile.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/styles.less",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/template.js",
 				"/D/^work/^openserver/domains/m-rest.ru/gulpfile.config.js",
 				"/D/^work/^openserver/domains/m-rest.ru/less.old",
 				"/W/domains/m-rest.ru/app/assets/js/vendor/detect.min.js",
-				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/top-navigation.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/styles/common/common.less",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/cdn.js",
 				"/D/^work/^openserver/domains/m-rest.ru/app/assets/js/vendor/fallback.js",
@@ -962,13 +990,113 @@
 				},
 				{
 					"path": "D:\\^work\\_tools\\sublime-dev"
+				},
+				{
+					"path": "D:\\^work\\^openserver\\domains\\m-rest.ru\\app\\assets"
 				}
 			],
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/D/^work/^openserver/domains/m-rest.ru/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 46,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"apply_syntax_touched": true,
+									"bh_regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"bs_sintax": "git",
+									"buffer_scroll_name": "5b662289",
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/Seti_UI/Langs/Git.tmLanguage",
+									"tabs_extra_last_activated": 1444199175.22,
+									"tabs_extra_last_activated_sheet_index": 0,
+									"tabs_extra_spawned": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				},
 				{
@@ -1028,7 +1156,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-27,-1,-1,620,-97,78,1735",
+			"position": "0,2,3,-32000,-32026,-1,-1,620,-97,78,1735",
 			"project": "",
 			"replace":
 			{
